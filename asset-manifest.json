@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/birthday-quiz/static/css/main.f14c0931.chunk.css",
-    "main.js": "/birthday-quiz/static/js/main.8fb19b15.chunk.js",
-    "main.js.map": "/birthday-quiz/static/js/main.8fb19b15.chunk.js.map",
+    "main.js": "/birthday-quiz/static/js/main.f85fe665.chunk.js",
+    "main.js.map": "/birthday-quiz/static/js/main.f85fe665.chunk.js.map",
     "runtime-main.js": "/birthday-quiz/static/js/runtime-main.e6589002.js",
     "runtime-main.js.map": "/birthday-quiz/static/js/runtime-main.e6589002.js.map",
     "static/js/2.2e260de8.chunk.js": "/birthday-quiz/static/js/2.2e260de8.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e6589002.js",
     "static/js/2.2e260de8.chunk.js",
     "static/css/main.f14c0931.chunk.css",
-    "static/js/main.8fb19b15.chunk.js"
+    "static/js/main.f85fe665.chunk.js"
   ]
 }
