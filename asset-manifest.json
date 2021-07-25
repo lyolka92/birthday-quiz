@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/citizens-quiz/static/css/main.698963c1.chunk.css",
-    "main.js": "/citizens-quiz/static/js/main.0f94b1be.chunk.js",
-    "main.js.map": "/citizens-quiz/static/js/main.0f94b1be.chunk.js.map",
-    "runtime-main.js": "/citizens-quiz/static/js/runtime-main.aebde2c7.js",
-    "runtime-main.js.map": "/citizens-quiz/static/js/runtime-main.aebde2c7.js.map",
-    "static/js/2.af1d00a9.chunk.js": "/citizens-quiz/static/js/2.af1d00a9.chunk.js",
-    "static/js/2.af1d00a9.chunk.js.map": "/citizens-quiz/static/js/2.af1d00a9.chunk.js.map",
+    "main.css": "/citizens-quiz/static/css/main.8cdfc743.chunk.css",
+    "main.js": "/citizens-quiz/static/js/main.03bcb918.chunk.js",
+    "main.js.map": "/citizens-quiz/static/js/main.03bcb918.chunk.js.map",
+    "runtime-main.js": "/citizens-quiz/static/js/runtime-main.0e952342.js",
+    "runtime-main.js.map": "/citizens-quiz/static/js/runtime-main.0e952342.js.map",
+    "static/js/2.69268671.chunk.js": "/citizens-quiz/static/js/2.69268671.chunk.js",
+    "static/js/2.69268671.chunk.js.map": "/citizens-quiz/static/js/2.69268671.chunk.js.map",
     "index.html": "/citizens-quiz/index.html",
-    "precache-manifest.310559337c031a9576f46a0fafe91abb.js": "/citizens-quiz/precache-manifest.310559337c031a9576f46a0fafe91abb.js",
-    "service-worker.js": "/citizens-quiz/service-worker.js",
-    "static/css/main.698963c1.chunk.css.map": "/citizens-quiz/static/css/main.698963c1.chunk.css.map",
-    "static/js/2.af1d00a9.chunk.js.LICENSE.txt": "/citizens-quiz/static/js/2.af1d00a9.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/citizens-quiz/static/media/guerrilla-normal.f541ea55.woff",
-    "static/media/quiz_BG.001.jpeg": "/citizens-quiz/static/media/quiz_BG.001.969d80e7.jpeg"
+    "static/css/main.8cdfc743.chunk.css.map": "/citizens-quiz/static/css/main.8cdfc743.chunk.css.map",
+    "static/js/2.69268671.chunk.js.LICENSE.txt": "/citizens-quiz/static/js/2.69268671.chunk.js.LICENSE.txt",
+    "static/media/alps.9fc50d9f.jpeg": "/citizens-quiz/static/media/alps.9fc50d9f.jpeg",
+    "static/media/index.css": "/citizens-quiz/static/media/guerrilla-normal.f21c7a88.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.aebde2c7.js",
-    "static/js/2.af1d00a9.chunk.js",
-    "static/css/main.698963c1.chunk.css",
-    "static/js/main.0f94b1be.chunk.js"
+    "static/js/runtime-main.0e952342.js",
+    "static/js/2.69268671.chunk.js",
+    "static/css/main.8cdfc743.chunk.css",
+    "static/js/main.03bcb918.chunk.js"
   ]
 }
