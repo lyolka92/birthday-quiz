@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
-import BGImage from "./images/quiz_BG.001.jpeg";
+import BGImage from "./images/alps.jpeg";
 
 export const GlobalStyle = createGlobalStyle`
     html {
@@ -7,12 +7,13 @@ export const GlobalStyle = createGlobalStyle`
     }
     
     body {
-        background-image: url(${BGImage});
+        background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3)), url(${BGImage});
         background-size: cover;
         margin: 0;
         padding: 0;
         display: flex;
         justify-content: center;
+      height: 100vh;
     }
     
     * {

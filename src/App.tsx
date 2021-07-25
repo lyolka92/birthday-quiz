@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { fetchQuizQuestions, QuestionState } from "./API";
 import { QuestionCard } from "./components/QuestionCard";
 import { GlobalStyle, Wrapper } from "./App.styles";
+import { questions } from "./questions";
 
 export type AnswerObject = {
   question: string;
@@ -10,7 +11,7 @@ export type AnswerObject = {
   correctAnswer: string;
 };
 
-const TOTAL_QUESTIONS = 12;
+const TOTAL_QUESTIONS = questions.length;
 
 export const App = () => {
   const [questions, setQuestions] = useState<QuestionState[]>([]);
@@ -19,7 +20,7 @@ export const App = () => {
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(true);
 
-  const startTrivia = async () => {
+  const startQuiz = async () => {
     setGameOver(false);
 
     const newQuestions = fetchQuizQuestions();
@@ -35,7 +36,9 @@ export const App = () => {
       const answer = event.currentTarget.value;
       const correct = questions[number].correct_answer === answer;
 
-      if (correct) setScore((prev) => prev + 1);
+      if (correct) {
+        setScore((prev) => prev + 1);
+      }
 
       const answerObject = {
         question: questions[number].question,
@@ -43,6 +46,7 @@ export const App = () => {
         correct,
         correctAnswer: questions[number].correct_answer,
       };
+
       setUserAnswers((prev) => [...prev, answerObject]);
     }
   };
@@ -62,7 +66,7 @@ export const App = () => {
       <Wrapper>
         <h1>ВИКТОРИНА</h1>
         {gameOver && userAnswers.length !== TOTAL_QUESTIONS ? (
-          <button className="start" onClick={startTrivia}>
+          <button className="start" onClick={startQuiz}>
             Старт
           </button>
         ) : null}
