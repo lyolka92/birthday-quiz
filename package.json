@@ -1,8 +1,8 @@
 {
-  "name": "quizz-app",
+  "name": "birthday-quiz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lyolka92.github.io/citizens-quiz/",
+  "homepage": "https://lyolka92.github.io/birthday-quiz/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
