@@ -76,4 +76,14 @@ export const questions = [
     ],
     question: "Кто правит Швейцарией?",
   },
+  {
+    correct_answer: "Monteverdi",
+    incorrect_answers: ["Volkswagen", "Bura", "Zürich Man"],
+    question: "Какая марка машин была произведена в Швейцарии?",
+  },
+  {
+    correct_answer: "Деревни и посëлки",
+    incorrect_answers: ["Никакие", "Города и деревни"],
+    question: "Какие поселения создаются в швейцарских горах?",
+  },
 ];
